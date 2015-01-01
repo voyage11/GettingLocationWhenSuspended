@@ -23,9 +23,17 @@ Here are the steps to use this solution:-
 
 When you see the key “UIApplicationLaunchOptionsLocationKey” under “Resume“, it means that the iOS has relaunched the app after the devices has moving significantly from the last known location. If you create a new location Manager instance, you will get new location from delegate method “didUpdateLocations“.
 
-
-
 For the detail information, Please read: [Getting Location Updates for iOS 7 and 8 when the App is Killed/Terminated/Suspended]
 (http://mobileoop.com/getting-location-updates-for-ios-7-and-8-when-the-app-is-killedterminatedsuspended 
 "Getting Location Updates for iOS 7 and 8 when the App is Killed/Terminated/Suspended").
 
+I have used a lot of my personal time in experimenting/learning the Core Location APIs and share the solution for FREE. If my article and solution on Github helps you, please consider to donate. Donation will motivate myself to work harder in sharing more and helping more people.
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="QHDSGLYYDSZKG">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+Thanks.
