@@ -7,18 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LocationShareModel.h"
+#import "LocationManager.h"
 
-@interface LocationAppDelegate : UIResponder <UIApplicationDelegate,CLLocationManagerDelegate>
+@interface LocationAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong,nonatomic) LocationShareModel * shareModel;
-
-@property (nonatomic) CLLocationCoordinate2D myLastLocation;
-@property (nonatomic) CLLocationAccuracy myLastLocationAccuracy;
-
-@property (nonatomic) CLLocationCoordinate2D myLocation;
-@property (nonatomic) CLLocationAccuracy myLocationAccuracy;
+@property (strong,nonatomic) LocationManager * shareModel;
 
 @end
