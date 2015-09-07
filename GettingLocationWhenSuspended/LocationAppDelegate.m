@@ -51,8 +51,8 @@
         // This UIApplicationLaunchOptionsLocationKey key enables the location update even when
         // the app has been killed/terminated (Not in th background) by iOS or the user.
 
+        NSLog(@"UIApplicationLaunchOptionsLocationKey : %@" , [launchOptions objectForKey:UIApplicationLaunchOptionsLocationKey]);
         if ([launchOptions objectForKey:UIApplicationLaunchOptionsLocationKey]) {
-            NSLog(@"UIApplicationLaunchOptionsLocationKey");
             
             // This "afterResume" flag is just to show that he receiving location updates
             // are actually from the key "UIApplicationLaunchOptionsLocationKey"
