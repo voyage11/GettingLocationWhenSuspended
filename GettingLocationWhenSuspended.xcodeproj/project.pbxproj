@@ -14,8 +14,8 @@
 		1D4D72C71A54F80B000BD788 /* GettingLocationWhenSuspendedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D72C61A54F80B000BD788 /* GettingLocationWhenSuspendedTests.m */; };
 		1D4D72D61A54F873000BD788 /* LocationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D72D11A54F873000BD788 /* LocationAppDelegate.m */; };
 		1D4D72D71A54F873000BD788 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D72D31A54F873000BD788 /* LocationViewController.m */; };
-		1D4D72D81A54F873000BD788 /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D72D51A54F873000BD788 /* LocationShareModel.m */; };
 		1D4D72DA1A54F882000BD788 /* Location-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D4D72D91A54F882000BD788 /* Location-Info.plist */; };
+		7BEE0DA21B9841E600779C9A /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEE0DA11B9841E600779C9A /* LocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,9 @@
 		1D4D72D11A54F873000BD788 /* LocationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAppDelegate.m; sourceTree = "<group>"; };
 		1D4D72D21A54F873000BD788 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		1D4D72D31A54F873000BD788 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
-		1D4D72D41A54F873000BD788 /* LocationShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareModel.h; sourceTree = "<group>"; };
-		1D4D72D51A54F873000BD788 /* LocationShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareModel.m; sourceTree = "<group>"; };
 		1D4D72D91A54F882000BD788 /* Location-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Location-Info.plist"; sourceTree = "<group>"; };
+		7BEE0DA01B9841E600779C9A /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		7BEE0DA11B9841E600779C9A /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 				1D4D72D11A54F873000BD788 /* LocationAppDelegate.m */,
 				1D4D72D21A54F873000BD788 /* LocationViewController.h */,
 				1D4D72D31A54F873000BD788 /* LocationViewController.m */,
-				1D4D72D41A54F873000BD788 /* LocationShareModel.h */,
-				1D4D72D51A54F873000BD788 /* LocationShareModel.m */,
+				7BEE0DA01B9841E600779C9A /* LocationManager.h */,
+				7BEE0DA11B9841E600779C9A /* LocationManager.m */,
 				1D4D72B41A54F80B000BD788 /* Main.storyboard */,
 				1D4D72B71A54F80B000BD788 /* Images.xcassets */,
 				1D4D72B91A54F80B000BD788 /* LaunchScreen.xib */,
@@ -231,8 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BEE0DA21B9841E600779C9A /* LocationManager.m in Sources */,
 				1D4D72D61A54F873000BD788 /* LocationAppDelegate.m in Sources */,
-				1D4D72D81A54F873000BD788 /* LocationShareModel.m in Sources */,
 				1D4D72AD1A54F80B000BD788 /* main.m in Sources */,
 				1D4D72D71A54F873000BD788 /* LocationViewController.m in Sources */,
 			);
