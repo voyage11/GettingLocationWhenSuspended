@@ -16,8 +16,7 @@ Here are the steps to use this solution:-
     4. Launch the app into your iPhone.
     5. Killed the app. (Double tap and remove the app from the App Preview)
     6. Travel around with your iPhone for a few days.
-    7. Download iFunBox for Mac or any alternative that allows you to open the app and Read the PList 
-    under the "Documents" folder.
+    7. Download the LocationArray.plist to inspect from the File Sharing interface in iTunes.
     8. From the PLIst, you will see something like the screen shot below:-
 ![Getting Location Even When the App is Suspended/Killed/Terminated](http://mobileoop.com/wp-content/uploads/2015/01/GettingLocationWhenTheAppIsSuspended.png "Getting Location Even When the App is Suspended/Killed/Terminated")
 
