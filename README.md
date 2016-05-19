@@ -28,7 +28,9 @@ For the detail information, Please read: [Getting Location Updates for iOS 7 and
 
 Personal Note
 ==============
-I have used a lot of my personal time in experimenting/learning the Core Location APIs and share the solution for FREE. If my article and solution on Github helps you, please consider to donate. Donation will motivate myself to work harder in sharing more and helping more people. You may find the donation box on my website: http://mobileoop.com/
+Currently, I am working as a [Senior iOS Developer in Singapore](http://mobileoop.com/ "Senior iOS Developer in Singapore"). I might not be free to keep this solution updated. Please check the changes on the latest iOS to make sure that the solutions works well. Thanks.
+
 
 Thanks.
+
 Ricky
