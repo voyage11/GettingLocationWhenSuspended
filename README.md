@@ -22,9 +22,7 @@ Here are the steps to use this solution:-
 
 When you see the key “UIApplicationLaunchOptionsLocationKey” under “Resume“, it means that the iOS has relaunched the app after the devices has moving significantly from the last known location. If you create a new location Manager instance, you will get new location from delegate method “didUpdateLocations“.
 
-For the detail information, Please read: [Getting Location Updates for iOS 7 and 8 when the App is Killed/Terminated/Suspended]
-(http://mobileoop.com/getting-location-updates-for-ios-7-and-8-when-the-app-is-killedterminatedsuspended 
-"Getting Location Updates for iOS 7 and 8 when the App is Killed/Terminated/Suspended").
+For the detail information, Please read: [Getting Location Updates for iOS 7 and 8 when the App is Killed/Terminated/Suspended](http://mobileoop.com/getting-location-updates-for-ios-7-and-8-when-the-app-is-killedterminatedsuspended "Getting Location Updates for iOS 7 and 8 when the App is Killed/Terminated/Suspended").
 
 Personal Note
 ==============
